@@ -1,47 +1,27 @@
 import React from "react";
 
 function Footer() {
-    return ( <footer class="footer footer-light-left">
+    return (
+         <footer class="footer-light-medium">
         <div class="container">
-            <div class="columns is-vcentered">
-                <div class="column is-6">
-                    <div class="mb-20">
-                        <img class="small-footer-logo" src="assets/img/logos/bulkit-logo-g.png" alt="" />
-                    </div>
-                    <div>
-                        <span class="moto">Designed and coded with <i class="fa fa-heart color-red"></i> by CSS Ninja.</span>
-                        <nav class="level is-mobile mt-20">
-                            <div class="level-left level-social">
-                                <a href="#" class="level-item">
-                                    <span class="icon"><i class="fa fa-facebook"></i></span>
-                                </a>
-                                <a href="#" class="level-item">
-                                    <span class="icon"><i class="fa fa-twitter"></i></span>
-                                </a>
-                                <a href="#" class="level-item">
-                                    <span class="icon"><i class="fa fa-linkedin"></i></span>
-                                </a>
-                                <a href="#" class="level-item">
-                                    <span class="icon"><i class="fa fa-dribbble"></i></span>
-                                </a>
-                                <a href="#" class="level-item">
-                                    <span class="icon"><i class="fa fa-github"></i></span>
-                                </a>
-                            </div>
-                        </nav>
-                    </div>
+            <div class="footer-head">
+                <div class="head-text">
+                    <h3 class="dev1">Developed & coded by</h3>
+                    <h3 class="dev">Snehil Jain & Arpit Kogta</h3>
                 </div>
-                <div class="column">
-                    <div class="footer-nav-right">
-                        <a class="footer-nav-link" href="#">Home</a>
-                        <a class="footer-nav-link" href="#">Features</a>
-                        <a class="footer-nav-link" href="#">Pricing</a>
-                        <a class="footer-nav-link" href="#">Sign in</a>
-                        <a class="footer-nav-link" href="#">Sign up</a>
+                <div class="head-action">
+                    <div class="buttons">
+                        <a class="button primary-btn raised action-button is-bold" href="snehil34.herokuapp.com">Reach Us</a>
+                        <a class="button chat-button">Give Feedback</a>
                     </div>
                 </div>
             </div>
+
+            <div class="footer-copyright has-text-centered">
+                <p>© 2021 || All Rights Reserved.</p>
+            </div>
         </div>
+
     </footer>
     );
 }

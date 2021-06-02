@@ -78,6 +78,29 @@
             bottom: -8.5rem;
             width: 42%;
         }
+        
+        .hey {
+            margin: 0.5rem;
+        }
+        
+        .button.primary-btn {
+            outline: none;
+            border-color: #00ead3;
+            background-color: #00ead3;
+        }
+        
+        .dev1 {
+            color: #fff!important;
+            font-size: 1.5rem;
+        }
+        
+        .dev {
+            color: #fff!important;
+        }
+        
+        .footer-light-medium {
+            background-color: #2b2b2b;
+        }
     </style>
 </head>
 
@@ -96,6 +119,26 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <!-- /Chat widget -->
+
+    <script src="assets/js/app.js"></script>
+    <script>
+        function showNavbar() {
+            var element = document.getElementById("custom-buger");
+            element.classList.add("is-active");
+
+            var navbar = document.getElementById("navbar-menu");
+            navbar.classList.add("is-active");
+        }
+
+        function removeNavbar() {
+            var element = document.getElementById("custom-buger");
+            element.classList.remove("is-active");
+
+            var navbar = document.getElementById("navbar-menu");
+            navbar.classList.remove("is-active");
+        }
+    </script>
 </body>
 
 </html>
