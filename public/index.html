@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="theme-color" content="#000000" />
+    <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+    -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css/" />
+    <link font-family: "Montserrat", sans-serif; href="https://fonts.googleapis.com/css?family=McLaren|Montserrat&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Vaccine Finder</title>
+    <!--Core CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link id="theme-sheet" rel="stylesheet" href="assets/css/core.css">
+    <style>
+        .hero.is-app-grey {
+            background-color: #039be5;
+        }
+        
+        .hero-body .title.main-title {
+            color: #fff!important;
+            z-index: 999;
+            font-size: 3.5rem;
+        }
+        
+        .hero .navbar {
+            background: #2b2b2b;
+        }
+        
+        .button.primary-btn.btn-outlined {
+            border-color: #ffffff;
+            color: #fdfdff;
+            background-color: transparent;
+        }
+        
+        .button.primary-btn.btn-outlined:hover {
+            background-color: #fdfdff;
+            color: #2b2b2b;
+            border-color: #fdfdff;
+        }
+        
+        .heading {
+            font-size: 1.5rem;
+            color: #fff;
+            margin: 0%!important;
+            font-family: "Nexa Bold", sans-serif;
+        }
+        
+        .navbar-item {
+            color: #fff!important;
+            font-size: 1.1rem;
+        }
+        
+        .CardsDiv {
+            margin: 1rem 0.5rem 2rem 0.5rem;
+        }
+        
+        .image {
+            display: block;
+            position: absolute;
+            bottom: -8.5rem;
+            width: 42%;
+        }
+    </style>
+</head>
+
+<body class="is-theme-core">
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+</body>
+
+</html>

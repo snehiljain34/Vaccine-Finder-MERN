@@ -1,0 +1,74 @@
+html {
+    font-family: "Montserrat", sans-serif;
+}
+
+.note {
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 10px;
+    width: 240px;
+    margin: 16px;
+    float: left;
+}
+
+.note h1 {
+    font-size: 1.1em;
+    margin-bottom: 6px;
+}
+
+.note p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.tabs {
+    -webkit-overflow-scrolling: touch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 1rem;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    overflow: hidden;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.scroll-nav-wrapper .tabs ul {
+    border-bottom: none;
+}
+
+.tabs.is-centered ul {
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.tabs ul {
+    -ms-flex-align: center;
+    align-items: center;
+    border-bottom-color: #dbdbdb;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    list-style: none;
+}
+
+.scrollnav-item {
+    padding: 0 1rem 1rem 0rem;
+}
+
+App {
+    font-family: sans-serif;
+    text-align: center;
+}
