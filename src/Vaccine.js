@@ -5,7 +5,7 @@ function Vaccine() {
         <section class="section section-primary is-medium is-relative hey2">
         <h1>Vaccine Info.</h1>
         <div class="columns is-vcentered">
-               
+
                 <div class="column is-5 is-offset-1">
                     <div class="flex-card media-card media-card-left light-bordered light-raised">
                         <div class="columns is-gapless is-desktop">
@@ -14,12 +14,20 @@ function Vaccine() {
                             </div>
                             <div class="column content-column">
                                 <div class="mcard-content">
-                                    <h3 class="mcard-title"><a href="#">How SaaS can help small businesses becoming big players?</a></h3>
-                                    <p class="mcard-description is-hidden-touch">When it comes to structuring a React app, the ideal structure is the one that allows you to move around your code... </p>
+                                    <h3 class="mcard-title"><a href="#">COVISHIELD</a></h3>
+                                    <p class="mcard-description is-hidden-touch"><strong>NO OF DOSES:</strong>  2 </p>
+                                    <p class="mcard-description is-hidden-touch"><strong>DOSAGE GAP:</strong>   12-16 WEEKS</p>
+                                    <p class="mcard-description is-hidden-touch"><strong>COMMON SIDE EFFECTS:</strong>
+                                    <ul>
+                                    <li>tenderness, pain, warmth, or itching at Injection Site</li>
+                                    <li>Headache</li>
+                                    <li>generally feeling unwell</li>
+                                    <li>Fatigue</li>
+                                    </ul></p>
                                 </div>
-                                <div class="mcard-controls">
-                                    <div class="mcard-avatar">
-                                        <img src="assets/img/avatars/henry.jpg" alt="" data-demo-src="assets/img/avatars/henry.jpg" />
+                               <div class="mcard-controls">
+                                  <div class="mcard-avatar">
+                                        <img src="assets/img/avatars/covishield.jpg" alt="" data-demo-src="assets/img/avatars/covishield.jpg" />
                                     </div>
                                     <div class="mcard-info">
                                         <span><a href="#">Henry Rogers</a></span>
@@ -41,12 +49,19 @@ function Vaccine() {
                             </div>
                             <div class="column content-column">
                                 <div class="mcard-content">
-                                    <h3 class="mcard-title"><a href="#">Integrate our cities with technology, a major concern.</a></h3>
-                                    <p class="mcard-description is-hidden-touch">When it comes to structuring a React app, the ideal structure is the one that allows you to move around your code... </p>
+                                    <h3 class="mcard-title"><a href="#">COVAXIN</a></h3>
+                                    <p class="mcard-description is-hidden-touch"><strong>NO OF DOSES:</strong>  2</p>
+                                    <p><strong>DOSAGE GAP:</strong>   12-16 WEEKS</p>
+                                    <p class="mcard-description is-hidden-touch"><strong></strong><ul>
+                                    <li>Injection site pain/Swelling/Redness/Itching</li>
+                                    <li>Headache</li>
+                                    <li>Fever</li>
+                                    <li>Nausea/Vomiting</li>
+                                    </ul>  </p>
                                 </div>
                                 <div class="mcard-controls">
                                     <div class="mcard-avatar">
-                                        <img src="assets/img/avatars/janet.jpg" alt="" data-demo-src="assets/img/avatars/janet.jpg" />
+                                        <img src="assets/img/avatars/bharat-biotech-covaxin-packshot.jpg" alt="" data-demo-src="assets/img/avatars/bharat-biotech-covaxin-packshot.jpg" />
                                     </div>
                                     <div class="mcard-info">
                                         <span><a href="#">Janet Biggs</a></span>
