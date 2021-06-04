@@ -182,7 +182,7 @@ function App() {
                     </div>
                     <div class="column is-7 is-offset-1">
                         
-                        <figure class="image is-hidden-mobile">
+                        <figure class="image">
                             <img class="VaccineIMG" src="assets/cowin/vaccine.png" data-extension=".png" alt="" />
                         </figure>
                     </div>
