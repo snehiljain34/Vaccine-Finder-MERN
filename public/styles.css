@@ -5,7 +5,8 @@ html {
 .note {
     background: #fff;
     border-radius: 7px;
-    box-shadow: 0 2px 5px #ccc;
+    box-shadow: 0 2px 5px #039be5;
+    border-style: dashed;
     padding: 10px;
     width: 240px;
     margin: 16px;
@@ -21,6 +22,21 @@ html {
     margin-bottom: 10px;
     white-space: pre-wrap;
     word-wrap: break-word;
+}
+
+.cardHeading {}
+
+.cardHeading h1 {
+    font-size: 2rem;
+}
+
+.note img {
+    height: 1.1rem;
+    margin-right: 5px;
+}
+
+.note span {
+    font-weight: 500;
 }
 
 .tabs {
