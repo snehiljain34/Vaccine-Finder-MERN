@@ -1,0 +1,37 @@
+{
+  "name": "@theme-ui/core",
+  "version": "0.9.1",
+  "source": "src/index.ts",
+  "main": "dist/theme-ui-core.cjs.js",
+  "module": "dist/theme-ui-core.esm.js",
+  "types": "dist/theme-ui-core.cjs.d.ts",
+  "sideEffects": false,
+  "scripts": {},
+  "repository": "system-ui/theme-ui",
+  "author": "Brent Jackson",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.1.1",
+    "@theme-ui/css": "0.9.1",
+    "@theme-ui/parse-props": "0.9.1",
+    "deepmerge": "^4.2.2"
+  },
+  "peerDependencies": {
+    "react": "^16.14.0 || ^17.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.0",
+    "react": "^17.0.1"
+  },
+  "preconstruct": {
+    "entrypoints": [
+      "index.ts",
+      "jsx-dev-runtime.ts",
+      "jsx-runtime.ts"
+    ]
+  },
+  "gitHead": "f64df9e132f13777a4734c7c7175ec609cf562c9"
+}

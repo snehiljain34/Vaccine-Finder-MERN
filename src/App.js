@@ -12,6 +12,10 @@ import Clients from "./Clients";
 import Footer from "./Footer";
 import Extension from "./Extension";
 import Vaccine from "./Vaccine";
+import { Controller, useForm } from "react-hook-form";
+import { Box, Button, Label, Flex, jsx, Heading } from "theme-ui";
+import ReactDatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
 
 import axios from "axios";
 const COWINAPI = () => {
@@ -22,7 +26,7 @@ const COWINAPI = () => {
   var year = dateObj.getUTCFullYear();
   var newdate = day + "-0" + month + "-" + year;
   const [url, setUrl] = useState(
-    "https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/findByPin?pincode=313001&date="+newdate
+    "https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/findByPin?pincode=560100&date="+newdate
   );
   const [isLoading, setIsLoading] = useState(false);
   const [isError, setIsError] = useState(false);
@@ -50,7 +54,7 @@ const COWINAPI = () => {
 };
 
 function App() {
-  const [query, setQuery] = useState("313001");
+  const [query, setQuery] = useState("560100");
   const [{ data, isLoading, isError }, doFetch] = COWINAPI();
   const [eighteenplus,setEighteenPlus]=useState(false);
   const [fortyfiveplus,setFortyFivePlus]=useState(false);
@@ -64,6 +68,7 @@ function App() {
   const [textColorfree,setTextColorfree]=useState('white');
   const [colorpaid,setColorpaid]=useState('#00ead3');
   const [textColorpaid,setTextColorpaid]=useState('white');
+
   const change18=()=>{
     if(color18==='#00ead3'){
       setColor18('#2471A3');
@@ -113,11 +118,11 @@ function App() {
   var day = dateObj.getUTCDate();
   var year = dateObj.getUTCFullYear();
   var newdate = day + "-0" + month + "-" + year;
-  
+  var [date,setDate]=useState(newdate);
   return (
   <div>
-    
- 
+
+
 
       <Switch>
         {/* If the current URL is /about, this route is rendered
@@ -157,7 +162,7 @@ function App() {
                         <h1 class="title main-title text-bold is-2">
                             Enter your Pincode
                         </h1>
-                        
+
                         <div class="signup-block">
                         <form
                           onSubmit={(event) => {
@@ -170,7 +175,7 @@ function App() {
                                     <input type="email" class="input" placeholder="Your pincode" type="text"
                                       value={query}
                                       onChange={(event) => setQuery(event.target.value)} />
-                                    <button type="submit" class="button btn-align primary-btn raised">Search</button>
+                                                  <button type="submit" class="button btn-align primary-btn raised">Search</button>
                                 </div>
                             </form>
                         </div>
@@ -181,7 +186,7 @@ function App() {
                         <button style={{background:colorpaid,color:textColorpaid}} type="submit" class="btn-align button hey primary-btn raised" onClick={changepaid}>Paid</button>
                     </div>
                     <div class="column is-7 is-offset-1">
-                        
+
                         <figure class="image">
                             <img class="VaccineIMG" src="assets/cowin/vaccine.png" data-extension=".png" alt="" />
                         </figure>
@@ -253,7 +258,7 @@ function App() {
                 vaccine={item.vaccine}
                 age={item.min_age_limit}
               />
-            
+
           ))}
         </div>
       )}
