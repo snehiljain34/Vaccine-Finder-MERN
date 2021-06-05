@@ -10,7 +10,7 @@ function Vaccine() {
                     <div class="flex-card media-card media-card-left light-bordered light-raised">
                         <div class="columns is-gapless is-desktop">
                             <div class="column is-4 media-stretch">
-                                <img src="https://www.seruminstitute.com/images/product_covishield.jpg"/>
+                                <img src="https://bsmedia.business-standard.com/_media/bs/img/article/2021-01/03/full/1609654664-338.jpg"/>
                             </div>
                             <div class="column content-column">
                                 <div class="mcard-content">
