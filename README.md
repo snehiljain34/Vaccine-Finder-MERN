@@ -1,6 +1,7 @@
 # CowinAPI-MERN
 MERN project on cowin API
-
+#
+<img height="25" alt="Nodejs" src="https://visitor-badge.laobi.icu/badge?page_id=snehiljain34.snehiljain34" />   Star(⭐) this repo if you find it useful.
 
 ![Alt Text](https://github.com/snehiljain34/CowinAPI-MERN/blob/main/VID_20210607_135721.gif)
 
