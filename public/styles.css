@@ -1,5 +1,6 @@
 html {
     font-family: "Montserrat", sans-serif;
+    scroll-behaviour: "smooth";
 }
 
 .note {
